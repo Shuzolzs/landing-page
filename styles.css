@@ -156,6 +156,7 @@ img {
 }
 
 .footer{
+    margin-top: auto;
     background-color: #1F2937;
     display: flex;
     align-items: center;
