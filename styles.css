@@ -25,6 +25,7 @@ a{
     padding:10px 0 0 70px;
 }
 .header-links{
+    font-family: Verdana, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,6 +87,9 @@ img {
     font-size: 20px;
     font-weight: 900;
     color: #F9FAF8;
+    display: flex;
+    flex:1 1 1;
+    border-radius:10px;
 }
 
 .random-heading{
@@ -121,15 +125,39 @@ img {
     flex-direction: column;
     background-color: #E5E7EB;
     padding:50px 100px 50px 100px;
+    font-family: Verdana, sans-serif;
 }
 .line{
     display: flex;
     justify-content: center;
     padding:10px;
+    color: #1F2937;
     font-style: italic;
 }
 .person{
     display: flex;
     justify-content: flex-end;
     font-weight: 700;
+}
+.action{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    margin:70px 100px 70px 100px;
+    padding:40px 70px 40px 70px;
+    border-radius: 15px;
+}
+.action-bold{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 0 20px 0;
+    color:#E5E7EB;
 }
